@@ -1,0 +1,75 @@
+body{
+    background-image: url(/assets/images/case/sfondo.jpg);
+    background-repeat: none;
+    background-position: 50px;
+    background-size: 100%;
+    background-position: bottom;
+
+    height: 500px;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.log-container{
+    height: 300px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+
+.log-container img{
+    height: 80px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+
+.log{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #1e1e1e;
+    border-radius: 20px;
+}
+
+.log input[type=email], input[type=password]{
+    width: 400px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 0px;
+    padding: 5px;
+    transition: box-shadow .4s;
+}
+
+.log input:focus{
+    outline: none;
+    box-shadow: 5px 5px 5px #5cbdb1;
+    color: #1e1e1e;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons input{
+    margin: 5px;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px;
+    background-color: #d97300;
+    color: #1e1e1e;
+    cursor: pointer;
+    transition: background-color .3s;
+    font-weight: bold;
+}
+
+.buttons input:hover{
+    background-color: #5cbdb1;
+}
